@@ -1,0 +1,70 @@
+	body {
+     color: #ffffff;
+     background-color: #E0E0E0;
+     font-family: Arial, sans-serif;
+     font-size:14px;
+     -moz-transition-property: text-shadow;
+     -moz-transition-duration: 4s;
+     -webkit-transition-property: text-shadow;
+     -webkit-transition-duration: 4s;
+     text-shadow: none;
+   }
+   body.blurry {
+     -moz-transition-property: text-shadow;
+     -moz-transition-duration: 4s;
+     -webkit-transition-property: text-shadow;
+     -webkit-transition-duration: 4s;
+     text-shadow: #fff 0px 0px 25px;
+   }
+   a {
+     color: #0188cc;
+   }
+   .textColumn, .linksColumn {
+     padding: 2em;
+   }
+   .textColumn {
+     position: absolute;
+     top: 0px;
+     right: 50%;
+     bottom: 0px;
+     left: 0px;
+
+     text-align: right;
+     padding-top: 11em;
+     background-color: #499bea;
+     background-image: -moz-radial-gradient(left top, circle, #499bea 0%, #105cad 60%);
+     background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#499bea), to(#105cad));
+   }
+   .textColumn p {
+     width: 75%;
+     float:right;
+   }
+   .linksColumn {
+     position: absolute;
+     top:0px;
+     right: 0px;
+     bottom: 0px;
+     left: 50%;
+
+     background-color: #fff;
+   }
+
+   h1 {
+     font-size: 500%;
+     font-weight: normal;
+     margin-bottom: 0em;
+   }
+   h2 {
+     color: #222;
+     font-size: 200%;
+     font-weight: normal;
+     margin-bottom: 0em;
+   }
+   ul {
+     padding-left: 1em;
+     margin: 0px;
+   }
+   li {
+     color: #e0aaaa;
+     margin: 1em 0em;
+   }
