@@ -28,5 +28,5 @@ production:
   pool: 5
   username: ebroot
   password: ArlingtonRubyMeetUp
-  host: aaiop77r1xbuuj.cn4mrsogaf4i.us-east-1.rds.
+  host: aaiop77r1xbuuj.cn4mrsogaf4i.us-east-1.rds.amazonaws.com
   port: 3306
